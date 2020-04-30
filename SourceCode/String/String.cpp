@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+void greetings(char hello[]){
+	printf("\n%s",hello);
+}
+
 int main(){
-	printf("string.cpp hai yeh");
+	char greet[] = "hello world";
+	greetings(greeting);
 }
